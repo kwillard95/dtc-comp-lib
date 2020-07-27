@@ -5,16 +5,16 @@ const defaultDesignTokens = {
       white: '#fff'
     },
     primary: {
-      light: '#d6cbd3',
-      main: '#eca1a6',
-      dark: '#bdcebe',
-      contrastText: '#ada397'
+      light: '#99738e',
+      main: '#553d67',
+      dark: '#242582',
+      contrastText: '#f64c72'
     },
     secondary: {
-      light: '#a2b9bc',
-      main: '#b2ad7f',
-      dark: '#878f99',
-      contrastText: '#6b5b95'
+      light: '#edf5e1',
+      main: '#5cdb95',
+      dark: '#05386b',
+      contrastText: '#379683'
     },
     error: {
       light: '#f4e1d2',
