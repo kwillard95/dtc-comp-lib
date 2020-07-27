@@ -5,16 +5,16 @@ const defaultDesignTokens = {
       white: '#fff'
     },
     primary: {
-      light: '#99738e',
-      main: '#553d67',
-      dark: '#242582',
-      contrastText: '#f64c72'
+      light: '#d6cbd3',
+      main: '#eca1a6',
+      dark: '#bdcebe',
+      contrastText: '#ada397'
     },
     secondary: {
-      light: '#edf5e1',
-      main: '#5cdb95',
-      dark: '#05386b',
-      contrastText: '#379683'
+      light: '#a2b9bc',
+      main: '#b2ad7f',
+      dark: '#878f99',
+      contrastText: '#6b5b95'
     },
     error: {
       light: '#f4e1d2',
@@ -75,7 +75,7 @@ const defaultDesignTokens = {
     },
     body1: {
       fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-      fontWeight: 300,
+      fontWeight: 400,
       fontSize: "1rem",
       lineHeight: 1.5,
       letterSpacing: "0.00938em"

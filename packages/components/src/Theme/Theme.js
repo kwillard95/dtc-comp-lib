@@ -3,12 +3,14 @@ import { ThemeProvider } from 'styled-components'
 import designTokens from './designTokens'
 
 const Theme = (props) => {
-  const { children, className } = props
+  const { children } = props
  return (
-  <ThemeProvider className={className} theme={designTokens}>
+  <ThemeProvider theme={designTokens}>
   {children}
 </ThemeProvider>
  )
 }
+
+
 
 export default Theme
