@@ -11,12 +11,13 @@ const Button = ({
   onClick,
   variant = "text",
   primary,
+  className,
   children,
 }) => {
   if (variant === "text") {
     return (
       <Theme>
-      <TextButton onClick={onClick} primary={primary} variant={variant}>
+      <TextButton className={className} onClick={onClick} primary={primary} variant={variant}>
         {children}
       </TextButton>
       </Theme>
@@ -26,6 +27,7 @@ const Button = ({
     return (
       <Theme>
       <ContainedButton
+        className={className}
         onClick={onClick}
         primary={primary}
         variant={variant}
