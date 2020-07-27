@@ -1,6 +1,6 @@
 {
   "name": "@dtc-design-system/core",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "dependencies": {
     "react": "latest",
     "react-dom": "latest"
