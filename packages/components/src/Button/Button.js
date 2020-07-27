@@ -9,7 +9,7 @@ const ContainedButton = styled.button([containedStyle]);
 
 const Button = ({
   onClick,
-  variant = "text",
+  variant = "contained",
   primary,
   className,
   children,
